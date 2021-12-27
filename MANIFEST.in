@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vuex_test *.css
+recursive-include vuex_test *.csv
+recursive-include vuex_test *.html
+recursive-include vuex_test *.ico
+recursive-include vuex_test *.js
+recursive-include vuex_test *.json
+recursive-include vuex_test *.md
+recursive-include vuex_test *.png
+recursive-include vuex_test *.py
+recursive-include vuex_test *.svg
+recursive-include vuex_test *.txt
+recursive-exclude vuex_test *.pyc
